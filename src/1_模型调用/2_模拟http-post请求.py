@@ -21,11 +21,13 @@ if not base_url or base_url == "your_base_url_here":
     raise ValueError("\n请先在.env文件中设置有效的DEEPSEEK_API_KEY\n")
 
 
+# 解析url
 parsed_url = urlparse(base_url)
 host = parsed_url.hostname  # api.deepseek.com
 port = parsed_url.port  # None
 
-# 构造请求体
+
+# 构造请求体（将字典转化为json对象）
 payload = json.dumps(
     {
         "model": "deepseek-v4-flash",
