@@ -14,6 +14,7 @@
 ### Python 标准库
 - [json.dumps — Python 对象序列化为 JSON 字符串](python/json.dumps/README.md) — `default` / `ensure_ascii` / `indent` 怎么用
 - [json.loads — JSON 字符串反序列化为 Python 对象](python/json.loads/README.md) — `object_hook` / `object_pairs_hook` / `parse_float` 实战
+- [try-except — Python 异常处理](python/try-except/README.md) — `try/except/else/finally` 四子句 + 异常链 + 自定义异常
 
 ### 网络与协议
 - [urlparse — URL 解析](网络与协议/01_urlparse-url解析/README.md) — 如何从 URL 字符串中提取 hostname、port 等信息
